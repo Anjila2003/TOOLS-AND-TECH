@@ -1,0 +1,134 @@
+body{
+    font-family: 'Open-Sans', sans-serif;
+    margin:0;
+    padding:0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header h1{
+    font-size: 23px;
+    color: rgb(253,110,10,1);
+    padding-left: 120px;;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    padding: 0;
+}
+nav ul li{
+    margin-left: 20px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#dd5438;
+}
+nav ul li button{
+    background-color: rgb(253,110,10,1);
+    color: #ddd;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 18px;
+}
+.chap1{
+    background-image: url(header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: left;
+    padding: 100px 130px;
+    display: flex;
+    align-items: center;
+    gap:2px;
+}
+.chap1 h1{
+    font-size: 35px;
+    margin-bottom:40px;
+}
+.chap1 button{
+    color:rgb(253,110,10,1);
+    background: transparent;
+    border: 1px solid rgba(253, 110, 10, 1);
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 18px;
+}
+.chap1 p{
+    width: 55%;
+    font-size: 30px;
+}
+.about, .skills, .resume, .contact{
+    padding: 50px 20px;
+    text-align: center;
+}
+.about, .contacts{
+    background-color: rgba(255, 248, 243, 1);
+}
+.skills ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skills li{
+    margin:10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 10%;
+    justify-content: space-around;
+}
+.contact{
+    background-color: #eb885d58;
+    justify-content: left;
+    display: flex;
+}
+.contact .c1{
+    width: 50%;
+    justify-content: left;
+}
+.contact ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.contact ul img{
+    padding:20px 35px;
+}
+.contact .c2{
+    width:50%;
+    justify-content: right;
+}
+.contact form input[type=text], .contact form input[type=email]{
+    border-style: none;
+    border-radius: 4px;
+    padding:16px 14px; 
+}
+.contact form input[type=textarea]{
+    border-style: none;
+    border-radius: 4px;
+    padding: 30px 20px;
+}
+.contact form{
+    max-width:500px;
+    margin:0 auto;
+    text-align: left;
+    justify-content: left;
+}
+.contact form label, .contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contact form button{
+    padding: 10px 20px;
+    background-color: rgba(253, 110, 10, 1);
+    color:white;
+    border: none;
+    cursor: pointer;
+}
